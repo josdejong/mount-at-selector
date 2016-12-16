@@ -1,6 +1,6 @@
 {
   "name": "mount-at-selector",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Render React components like a Modal outside the main React app",
   "keywords": [
     "mount",
