@@ -1,0 +1,15 @@
+body {
+  background: lightblue;
+  font-family: sans-serif;
+}
+
+.content {
+  background: white;
+  position: relative;
+  width: 500px;
+  padding: 10px;
+  border: 1px solid black;
+  height: 300px;
+  transform: translate(0px, 0px);
+  margin: 50px;
+}
