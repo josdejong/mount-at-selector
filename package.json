@@ -1,9 +1,16 @@
 {
   "name": "mount-at-selector",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Render React components like a Modal outside the main React app",
-  "keywords": ["mount", "render", "attach", "modal", "root", "dom" ],
-  "main": "./src/MountAtSelector.js",
+  "keywords": [
+    "mount",
+    "render",
+    "attach",
+    "modal",
+    "root",
+    "dom"
+  ],
+  "main": "./dist/MountAtSelector.js",
   "author": "Jos de Jong",
   "license": "MIT",
   "repository": {
@@ -11,6 +18,8 @@
     "url": "https://github.com/josdejong/mount-at-selector.git"
   },
   "devDependencies": {
+    "babel-cli": "6.18.0",
+    "babel-preset-react-app": "2.0.1",
     "react-scripts": "0.8.4"
   },
   "dependencies": {
@@ -19,8 +28,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "build": "BABEL_ENV=production babel ./src/MountAtSelector.js -o ./dist/MountAtSelector.js --presets=react-app",
+    "prepublish": "npm run build",
     "eject": "react-scripts eject"
   }
 }
