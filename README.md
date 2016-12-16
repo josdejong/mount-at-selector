@@ -64,6 +64,8 @@ and run `npm install; npm start` in the root of the project.
 
 ```
 <MountAtSelector selector={string | Element}>
+  ...
+</MountAtSelector>
 ```
 
 Properties:
