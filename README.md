@@ -35,7 +35,7 @@ Create an extra container like `#myModal` in your HTML:
 
 Create a `MountAtSelector` component in your React app:
 
-```js
+```jsx
 import React from 'react'
 import ReactDOM from 'react-dom'
 
