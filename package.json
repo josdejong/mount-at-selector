@@ -6,6 +6,10 @@
   "main": "./src/MountAtSelector.js",
   "author": "Jos de Jong",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/josdejong/MountAtSelector.git"
+  },
   "devDependencies": {
     "react-scripts": "0.8.4"
   },
