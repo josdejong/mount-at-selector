@@ -1,5 +1,5 @@
 {
-  "name": "MountAtSelector",
+  "name": "mount-at-selector",
   "version": "1.0.0",
   "description": "Render React components like a Modal outside the main React app",
   "keywords": ["mount", "render", "attach", "modal", "root", "dom" ],
@@ -8,7 +8,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/josdejong/MountAtSelector.git"
+    "url": "https://github.com/josdejong/mount-at-selector.git"
   },
   "devDependencies": {
     "react-scripts": "0.8.4"

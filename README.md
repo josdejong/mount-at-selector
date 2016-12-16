@@ -8,7 +8,7 @@ Inspired by a blog of Komand Tech: https://blog.komand.com/how-to-render-compone
 # Install
 
 ```
-npm install --save MountAtSelector
+npm install --save mount-at-selector
 ```
 
 
@@ -35,6 +35,7 @@ Create a `MountAtSelector` component in your React app:
 ```jsx
 import React from 'react'
 import ReactDOM from 'react-dom'
+import MountAtSelector from 'mount-at-selector'
 
 ReactDOM.render(
   <div>
