@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import './Modal.css';
+import React, { Component } from 'react'
+import './Modal.css'
 import MountAtSelector from './MountAtSelector'
 
 export default class Modal extends Component {

@@ -22,12 +22,9 @@ Create an extra container like `#myModal` in your HTML:
 <html lang="en">
   <head>
     <meta charset="utf-8">
-
-    <title>MountAtSelector demo</title>
   </head>
   <body>
     <div id="myModal"></div>
-
     <div id="app"></div>
   </body>
 </html>
