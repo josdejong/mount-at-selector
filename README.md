@@ -2,7 +2,7 @@
 
 This React component allows rendering components like a Modal outside the main React app.
 
-Inspired by a blog of Komand Tech: https://blog.komand.com/how-to-render-components-outside-the-main-react-app
+Inspired by a blog of Ryan Zec: https://blog.komand.com/how-to-render-components-outside-the-main-react-app
 
 
 # Install
