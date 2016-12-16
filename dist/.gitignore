@@ -1,2 +1,1 @@
-# ignore everything inside dist
-*.*
+# empty file to ensure folder /dist exists
